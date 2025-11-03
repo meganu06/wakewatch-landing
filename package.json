@@ -2,11 +2,11 @@
   "name": "react-landing-page-2021",
   "version": "1.0.0",
   "engines": {
-    "node": "16.14.0"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
