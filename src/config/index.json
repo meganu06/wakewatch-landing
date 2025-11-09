@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/WakeWatchLogo.png"
   },
   "navigation": [
     {
@@ -30,7 +30,7 @@
     "title": "WakeWatch",
     "subtitle": "Safer driving for everyone.",
     "description": "Driver drowsiness application powered by computer vision.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "img": "/assets/images/UberDriver.png",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
@@ -41,17 +41,17 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "What are we about?",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "The critical gap in driver safety",
+        "description": "Drowsy driving causes over 100,000 crashes annually and generates $12.5 billion in direct losses globally. Evidence indicates that fatigue is involved in 16–20% of crashes across major markets, with approximately 91,000 fatigue-related crashes and 800 deaths annually in the US alone, and comparable figures in Europe and Asia. Actual figures are likely significantly higher due to chronic under-reporting. Despite this documented impact, 97% of drivers lack access to real-time fatigue monitoring systems. Existing telematics and black-box solutions track driving behaviour; speeding, braking patterns, lane adherence, but do not measure whether drivers remain alert, creating a critical blind spot in loss prevention.",
+        "img": "/assets/images/CarCrash.webp"
       },
       {
-        "title": "Make it your own!",
+        "title": "Our solution",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "img": "/assets/images/UberDriver2.jpg"
       }
     ]
   },
@@ -79,45 +79,6 @@
         "name": "Typescript",
         "description": "TypeScript is a programming language developed and maintained by Microsoft.",
         "icon": "/assets/images/ts.png"
-      }
-    ]
-  },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
       }
     ]
   },
