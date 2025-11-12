@@ -14,8 +14,8 @@
     },
 
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Sign Up",
+      "href": "sign_up"
     },
     {
       "name": "About",
@@ -50,36 +50,46 @@
       },
       {
         "title": "Our solution",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "description": "WakeWatch aims to become the global standard for driver fatigue prevention, embedded in every navigation app, rideshare platform, and vehicle system. Professional drivers use it to protect their livelihoods. Fleet operators deploy it to reduce liability and insurance costs. Insurers integrate it to offer risk-based premiums. Ultimately, WakeWatch prevents thousands of drowsy driving accidents annually by making real-time fatigue detection as ubiquitous as seatbelts.",
         "img": "/assets/images/UberDriver2.jpg"
       }
     ]
   },
   "features": {
     "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "subtitle": "What makes WakeWatch special?",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "name": "Real-time Facial Monitoring",
+        "description": "Use your front-facing camera to track eye movements and facial landmarks",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "name": "Tiered Alert System",
+        "description": "Visual and gentle audio prompt asking for verbal confirmation with an escalation to a loud alarm and break recommendation if there's no response",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "name": "Smart Route Redirection",
+        "description": "Integrates with Google Maps API and automatically suggests nearest rest stops / service stations and other safe pull-over areas ",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "name": "Simple Trip Tracking",
+        "description": "Start/stop trip functionality with basic logs of alerts triggered per trip",
         "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Lightweight UI",
+        "description": "Minimal interface during active monitoring with one-tap start/stop and clear alert displays",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Background Operation",
+        "description": "App runs while using Google Maps or other navigation apps with overlay permission for alerts ",
+        "icon": "/assets/images/tailwindcss.svg"
       }
+       
     ]
   },
   "about": {

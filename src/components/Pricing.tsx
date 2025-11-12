@@ -11,10 +11,10 @@ const Pricing = () => {
         </h1>
         <div className="flex flex-col justify-center items-center">
           <form className="w-1/2 rounded-xl overflow-hidden">
-            <input className="w-full rounded-xl border px-3 py-2" />
+            <input className="w-full rounded-xl border px-3 py-2 text-black" />
           </form>
           <a
-            className={`w-1/8 flex items-center justify-center px-4 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+            className={`w-1/8 flex items-center justify-center m-5 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
           >
             Submit
           </a>
