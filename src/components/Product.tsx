@@ -16,7 +16,7 @@ const Product = () => {
           {product.title.split(' ').map((word, index) => (
             <span
               key={index}
-              className={index % 2 ? 'text-primary' : 'text-border'}
+              className={index % 2 ? 'text-primary' : 'text-gray-200'}
             >
               {word}{' '}
             </span>
@@ -25,7 +25,7 @@ const Product = () => {
         <Divider />
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3 className={`text-3xl text-border font-bold leading-none mb-3`}>
+            <h3 className={`text-3xl text-gray-300 font-bold leading-none mb-3`}>
               {firstItem?.title}
             </h3>
             <p className={`text-gray-600`}>{firstItem?.description}</p>
@@ -49,7 +49,7 @@ const Product = () => {
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <div className={`align-middle`}>
               <h3
-                className={`text-3xl text-border font-bold leading-none mb-3`}
+                className={`text-3xl text-gray-300 font-bold leading-none mb-3`}
               >
                 {secondItem?.title}
               </h3>
