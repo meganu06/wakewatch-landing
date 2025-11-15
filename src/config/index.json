@@ -15,27 +15,15 @@
 
     {
       "name": "Sign Up",
-      "href": "sign_up"
-    },
-    {
-      "name": "About",
       "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
     "title": "WakeWatch",
     "subtitle": "Safer driving for everyone.",
     "description": "Driver drowsiness application powered by computer vision.",
     "img": "/assets/images/UberDriver.png",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
-    },
-    "secondaryAction": {
       "text": "Email us",
       "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
     }
@@ -89,7 +77,6 @@
         "description": "App runs while using Google Maps or other navigation apps with overlay permission for alerts ",
         "icon": "/assets/images/tailwindcss.svg"
       }
-       
     ]
   },
   "about": {
