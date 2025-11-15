@@ -3,7 +3,7 @@ import React from 'react';
 import config from '../config/index.json';
 
 const About = () => {
-  const { company, about } = config;
+  const { company } = config;
   const { logo, name: companyName } = company;
   return (
     <div
@@ -14,8 +14,6 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-16 h-11" />
         </div>
-       
-
       </div>
     </div>
   );
