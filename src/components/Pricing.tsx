@@ -8,19 +8,19 @@ const Pricing = () => {
   const [requestState, setRequestState] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  async function submitEmail(userEmail: string) {
+  async function submitEmail() {
     if (requestState === "loading") return
     const regex = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
 
     setErrorMessage("");
     setRequestState("");
-    if (regex.test(userEmail)) {
+    if (regex.test(email)) {
       setRequestState("loading");     // Start spinner / disable button
       setErrorMessage("");
 
       const { error } = await supabase
         .from('email_signups')
-        .insert({ userEmail })
+        .insert({ email })
 
       if (error) {
         setRequestState("error")
@@ -53,7 +53,7 @@ const Pricing = () => {
           <form className="w-1/2 rounded-xl overflow-hidden">
             <input onChange={(e) => handleTextChange(e.target.value)} className="w-full rounded-xl border px-3 py-2 text-black" />
           </form>
-          <a onClick={() => submitEmail(email)}
+          <a onClick={() => submitEmail()}
             className={`w-1/8 flex items-center justify-center m-5 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
           >
             {requestState === 'loading' ? 'Submitting...' : 'Submit'}
